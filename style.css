@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#text{
+    font-family: 'Poppins';
+    font-size: 29px;
+    font-weight: 900;
+    
+}
+#img > img{
+   object-fit: cover;
+}
+#btn{
+    display: flex;
+    gap: 1rem;
+}
+#yes > button{
+    padding: 5px;
+    margin: 5px;
+    background: none;
+    border-radius: 7px;
+    font-family: 'Poppins';
+}
+#no > button{
+    padding: 5px;
+    margin: 5px;
+    background: none;
+    border-radius: 7px;
+    font-family: 'Poppins';
+}
+#tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hide{
+    display: none;
+}
